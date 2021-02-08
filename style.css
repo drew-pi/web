@@ -1,0 +1,42 @@
+body {
+	background-color: ivory;
+	text-align: center;
+	border: dashed blue;
+}
+
+h2 {
+	font-family: "Serif";
+	font-size: 50px;
+	color: lightsalmon;
+}
+
+h1 {
+	font-family: "Serif";
+	font-size: 70px;
+	color: coral;
+	border-bottom: solid blue;
+	margin-left: 30%;
+	margin-right: 30%;
+}
+
+
+a {
+	color: palevioletred;
+	text-decoration: none;	
+}
+
+a:hover {
+	color: hotpink;
+	font-style: italic;
+	text-decoration: underline;
+	
+}
+
+
+li {
+	list-style-position: inside;
+}
+
+img {
+	border: solid aqua;
+}

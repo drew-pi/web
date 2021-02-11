@@ -1,3 +1,9 @@
+/*
+* {
+	border: solid black;
+}
+*/
+
 body {
 	background-color: ivory;
 	text-align: center;
@@ -19,6 +25,11 @@ h1 {
 	margin-right: 30%;
 }
 
+h3 {
+	display: inline;
+	font-size: 200%;
+}
+
 
 a {
 	color: palevioletred;
@@ -29,14 +40,28 @@ a:hover {
 	color: hotpink;
 	font-style: italic;
 	text-decoration: underline;
-	
 }
 
 
+ul {
+	list-style-type: none;
+    overflow: hidden;
+    background-color: khaki;
+}
+
 li {
-	list-style-position: inside;
+	float: left;
+}
+
+li a {
+	display: block ;
+	text-align: center;
+	padding: 16px;
+	text-decoration: none;
 }
 
 img {
 	border: solid aqua;
+	width: 50% ;
+	height: 50% ;
 }

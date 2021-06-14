@@ -1,0 +1,76 @@
+<!Doctype html>
+
+<html lang = "eng">
+
+<head>
+	<link rel="stylesheet" type="text/css" href="">
+	<meta charset='utf-8'>
+
+	<title>Final Project Description</title>
+</head>
+
+
+<body style="background-color:ivory;font-family: Helvetica, Arial, sans-serif;">
+
+	<h1 style="color:tomato">NYC Public Job Openings: A Deep Dive</h1>
+
+	<h2>Andrew Piatetsky, Period 4 Intro to Computer Science Annual</h2>
+	
+	<hr>
+
+
+	<ul style="list-style-type: circle;">
+		<li><h3><a href='infopage.html'>Project Website</a></h3></li>
+
+		<li><h3>Project Description</h3></li>
+		<p>For my project I decided to create different graphs. Those graphs represent different patterns that I found from a public API, showing all public job openings in NYC.</p>
+
+		<li><h3>Instructions</h3></li>
+		<p>There is nothing to be done, just go to the website and look at the different graphs and the descriptions.</p>
+		<p>If you want to run the program and see how I got the graphs, just run the python file and it should just work.</p>
+		<ul style="list-style-type: square;">
+			<li>The only thing you need to keep in mind is that if you want to recreate the two different pie charts, you will have to manually go into the file and undo the comment on the desired one.</li>
+			<ol>
+				<li>Go to <i>typesPieChart.py</i> and scroll down to line 81/82.</li>
+				<li>Then uncomment the desired type of graph you want (there are comments explaining which one is which).</li>
+				<li>The pie chart that is generated depends on what recipe becomes.</li>
+			</ol>
+		</ul>
+
+
+		<li><h3>How it works</h3></li>
+		<p>My program works by connecting to an API. It draws data from it in the form of a json file. In my python programs, I convert the json file to a list of dictionaries and then there are functions that sort through the data to clean it up. Some functions delete unimportant data and others change the data structure. For example to create the pie charts, I had to change the data into a list of strings. Then I use the madplotlib library to create graphs. The website that I created for this project is hosted on GitHub and is not directly linked to the python (via MOE). The programs seems simple, but creating the functions and graphs was very difficult even though their website had instructions and guides. </p>
+
+		<li><h3>Files</h3></li>
+		<ul style="list-style-type: square;">
+			<li><i>final.html</i> : This html file, on the website this file is called more info.</li>
+			<li><i>infopage.html</i> : This is the first page of the website. It contains some information and a navigation bar to access the other sites</li>
+			<li><i>stat1.html</i> : This is the first statistic on the website. It is the pie chart showing jobs based on experience and level.</li>
+			<li><i>stat2.html</i> : This is the second statistic on the website. It is the histogram plus scatter plot showing pay by job category.</li>
+			<li><i>stat3.html</i> : This is the third statistic on the website. It is the pie chart showing distribution of jobs based on job type.</li>
+			<li><i>style.css</i> : This is the stylesheet for my website</li>
+			<li><i>payScatterPlot.py</i> : This is the python program that creates the scatter plot/histogram graph</li>
+			<li><i>typesPieChart.py</i> : This is the python program that creates the pie charts</li>
+		</ul>
+
+
+		<li><h3>Resources</h3></li>
+		<ul style="list-style-type: square;">
+			<li><a href="https://matplotlib.org/">Madplotlib</a> : I used this python library to graph</li>
+			<li><a href="https://numpy.org/">Numpy</a> : I used this python to help with graphing</li>
+		</ul>
+
+		<li><h3>Bugs, Errors and Things to be Aware of</h3></li>
+		<ul style="list-style-type: square;">
+			<li>My program is reliant on an API, if the API shuts down, or goes down, then my program won't work. Similarly, if you aren't connected to the internet then python won't be able to connect to the API.</li>
+			<li>The python program takes a while to create the graph (5-10seconds) this is primarily because of the large data set and because the internet/connection might not be very fast (at least for me)</li>
+			<li>Also the data might look slightly different than what I have on my website, but thats to be expected since the API is always being updated, and my website is not.</li>
+		</ul>
+
+
+
+	</ul>
+
+
+</body>
+</html>

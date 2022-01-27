@@ -13,7 +13,7 @@
     - Link to v1 [here](https://drew-pi.github.io/web/Frog%20Websites/v1/hw2-site.html)
  - v2
     - Final version of this assignment, added more pictures and added more substance
-    - Link to v2 [here](https://drew-pi.github.io/web/Frog%20Websites/v2/thebest.html)
+    - Link to v2 [here](https://drew-pi.github.io/web/Frog%20Websites/v2/site.html)
 
 
 #### Final Project Assignment

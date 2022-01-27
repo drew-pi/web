@@ -19,4 +19,7 @@
 #### Final Project Assignment
   - Showcase what we learned after studying Python, Netlogo, HTML, and CSS for a year
   - I decided to create a website to showcase data analysis that I did in Python
+  - How to view different parts of my project:
+    - To look at my python code just navigate to the ```~/Final Project/python``` directory in this repo.
+    - To look at my project proposal also navigate to ```~/Final Project``` , but the proposal is just a pdf in that directory. 
   - Link to final project [here](https://drew-pi.github.io/web/Final%20Project/final.html)

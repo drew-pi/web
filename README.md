@@ -7,7 +7,7 @@
  - v0
     - Assignment was to create a very simple one page website showcasing something we are passionate about
        - I decided to make mine silly by creating one about frogs
-    - Link to v0 [here](https://drew-pi.github.io/web/Frog%20Websites/v0/hw0-subject.html){:target="_blank"}
+    - Link to v0 [here](https://drew-pi.github.io/web/Frog%20Websites/v0/hw0-subject.html) {:target="_blank"}
  - v1
     - Expanded v0 by creating seperate web pages for each section
     - Link to v1 [here](https://drew-pi.github.io/web/Frog%20Websites/v1/hw2-site.html)
